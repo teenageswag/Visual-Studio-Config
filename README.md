@@ -35,7 +35,7 @@
 |:---:|:---:|
 | ![JavaScript Screenshot](screenshots/js.png) | ![HTML Screenshot](screenshots/html.png) |
 | **C++** | **CSS** |
-| ![C++ Screenshot](screenshots/с++.png) | ![CSS Screenshot](screenshots/css.png) |
+| ![C++ Screenshot](screenshots/cpp.png) | ![CSS Screenshot](screenshots/css.png) |
 
 ## 🚀 Installation
 
