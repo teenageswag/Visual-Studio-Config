@@ -1,8 +1,8 @@
 {
   "name": "nuclear-hippie",
-  "displayName": "Nuclear Hippie Theme",
-  "description": "A high-contrast, harmonious dark theme for VS Code with vibrant pink accents and Atom-inspired syntax colors",
-  "version": "0.3.1",
+  "displayName": "Nuclear",
+  "description": "A high-end terminal theme from a vintage workstation.",
+  "version": "0.4.0",
   "publisher": "j2cks",
   "author": {
     "name": "j2cks",
@@ -17,16 +17,12 @@
     "Themes"
   ],
   "keywords": [
-    "dark theme",
+    "theme",
+    "dark",
     "nuclear",
-    "nuclear hippie",
-    "high contrast",
-    "pink theme",
-    "crimson",
-    "elegant",
-    "atom inspired",
-    "eye comfort",
-    "dark mode"
+    "vintage",
+    "terminal",
+    "minimal"
   ],
   "repository": {
     "type": "git",
@@ -42,11 +38,6 @@
         "label": "Nuclear",
         "uiTheme": "vs-dark",
         "path": "./themes/nuclear.json"
-      },
-      {
-        "label": "Nuclear Pastele",
-        "uiTheme": "vs-dark",
-        "path": "./themes/nuclear-pastele.json"
       }
     ]
   }
