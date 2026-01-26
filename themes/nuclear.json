@@ -33,24 +33,59 @@
   },
   "tokenColors": [
     {
-      "name": "Keywords & Storage",
+      "name": "Keywords (Gold)",
       "scope": [
         "keyword",
-        "storage.type",
         "storage.modifier",
         "keyword.control",
-        "keyword.operator"
+        "keyword.operator",
+        "storage.type.struct",
+        "storage.type.class",
+        "storage.type.enum",
+        "storage.type.interface"
       ],
       "settings": {
         "foreground": "#CCB333"
       }
     },
     {
-      "name": "Strings",
+      "name": "Data Types (Gray/Off-White)",
+      "scope": [
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#E4E3E8"
+      }
+    },
+    {
+      "name": "Strings (Green)",
       "scope": [
         "string",
         "string.quoted",
-        "string.template"
+        "string.template",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#73B82E"
+      }
+    },
+    {
+      "name": "Directives / Preprocessor (Gray)",
+      "scope": [
+        "keyword.control.directive",
+        "meta.preprocessor",
+        "punctuation.definition.directive"
+      ],
+      "settings": {
+        "foreground": "#94979E"
+      }
+    },
+    {
+      "name": "Include Path (Green)",
+      "scope": [
+        "string.quoted.other.lt-gt.include",
+        "punctuation.definition.string.begin.include",
+        "punctuation.definition.string.end.include"
       ],
       "settings": {
         "foreground": "#73B82E"
@@ -114,16 +149,6 @@
       "scope": "invalid",
       "settings": {
         "foreground": "#B82E2E"
-      }
-    },
-    {
-      "name": "Object Keys (JSON/JS)",
-      "scope": [
-        "support.type.property-name",
-        "meta.object-literal.key"
-      ],
-      "settings": {
-        "foreground": "#E4E3E8"
       }
     },
     {
