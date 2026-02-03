@@ -1,8 +1,8 @@
 {
-  "name": "nuclear-hippie",
-  "displayName": "Nuclear",
-  "description": "High-end vintage workstation theme.",
-  "version": "0.4.1",
+  "name": "Minimal Dark Theme",
+  "displayName": "Minimal Dark",
+  "description": "Minimal Dark Theme",
+  "version": "0.2.0",
   "publisher": "j2cks",
   "author": {
     "name": "j2cks",
@@ -16,14 +16,7 @@
   "categories": [
     "Themes"
   ],
-  "keywords": [
-    "theme",
-    "dark",
-    "nuclear",
-    "vintage",
-    "terminal",
-    "minimal"
-  ],
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "https://github.com/mcagampan/nuclear-hippie.git"
@@ -35,9 +28,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Nuclear",
+        "label": "Minimal Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/nuclear.json"
+        "path": "./themes/MinimalDark.json"
       }
     ]
   }
