@@ -13,7 +13,7 @@ A refined, minimal dark theme for Visual Studio Code, inspired by the **Minimal 
 
 ### Download from GitHub
 
-You can download the latest compiled extension (`.vsix`) from the **[Releases](https://github.com/teenageswag/Visual-Studio-Config/releases)** section.
+You can download the latest compiled extension (`.vsix`) from the **[Releases]([https://github.com/teenageswag/Visual-Studio-Config/releases](https://github.com/teenageswag/Visual-Studio-Config/releases/))** section.
 After downloading:
 
 1. Open VS Code.
